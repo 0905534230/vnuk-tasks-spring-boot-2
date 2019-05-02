@@ -28,7 +28,6 @@ public class Task {
     @DateTimeFormat(pattern="dd/MM/yyyy")
     private Calendar dateOfCompletion;
     
-    private String dateInStringFormat;
 
 	public Long getId() {
         return id;
@@ -61,14 +60,5 @@ public class Task {
     public void setDateOfCompletion(Calendar dateOfCompletion) {
         this.dateOfCompletion = dateOfCompletion;
     }
-
-	public String getDateInStringFormat() {
-		return dateInStringFormat;
-	}
-
-	public void setDateInStringFormat(String dateInStringFormat) {
-		this.dateInStringFormat = dateInStringFormat;
-	}
-    
     
 }
